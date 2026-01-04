@@ -137,7 +137,21 @@ Examples:
 Odds ratios reflect **associations**, not causation.
 
 ---
+## Model Evaluation Visuals
 
+### ROC Curve
+![ROC Curve](reports/figures/roc_curve.png)
+
+The ROC curve demonstrates the model’s ability to discriminate between individuals
+with and without root caries across thresholds (ROC-AUC ≈ 0.73).
+
+### Feature Effects (Odds Ratios)
+![Odds Ratios](reports/figures/odds_ratios.png)
+
+Odds ratios illustrate the marginal effect of each feature on root caries risk
+while holding other variables constant.
+
+---
 ## Intended Use
 
 This model is intended for:
